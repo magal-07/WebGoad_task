@@ -43,6 +43,7 @@ URL: /WebGoat/SqlInjectionAdvanced/register
 
 Автоматизація посимвольного витягування пароля (Python):
 Оскільки сервер самостійно закриває лапку в кінці запиту, використано конструкцію:
+tom' AND substring(password,1,1)='a
 <img width="921" height="921" alt="image" src="https://github.com/user-attachments/assets/d920c80b-3719-43e0-8969-2fbb10e656e1" />
 
 <img width="922" height="917" alt="image" src="https://github.com/user-attachments/assets/2f7b4b30-6d7f-4f27-a43d-ec66f505e678" />
